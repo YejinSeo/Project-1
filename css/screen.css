@@ -1,0 +1,149 @@
+body {
+ background-color: #38ADBF;
+}
+h1{
+ padding: 5px;
+ text-align: center;
+ font-family:'Notable', sans-serif;
+ font-weight: bold;
+ color: black;
+ }
+h2{
+ padding: 5px;
+ text-align: left;
+ font-family: 'Cabin', sans-serif;
+ font-weight: bold;
+ color: black;
+ text-shadow: 0px 0px 4px #4EE520;
+}
+h1 {
+  font-size: 35px;
+  padding: 15px;
+}
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+#dog {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 15%;
+  height: 15%; 
+  display: block;
+  float: none;
+  padding: 5px;
+}
+form, #f2, #f3, #f4, #f5, #f6 {
+  padding: 2px;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+h4,a {
+  font-family: 'Cabin', sans-serif;;
+  text-align: left;
+  padding: 15px;
+ 
+}
+h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#button {
+	font-family: 'Cabin', sans-serif;
+	color: red;
+}
+#p1, #p2, #p3{
+	font-family: 'Cabin', sans-serif;
+	text-align: left;
+	padding: 5px;
+	color: white;
+}
+#p4{
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	padding: 2px;
+	color: #C1B4B4;
+}
+	
+
+@media only screen and (max-width: 600px) {
+body {
+ background-color: #f65555;
+}
+h1{
+ padding: 5px;
+ text-align: center;
+ font-family:'Notable', sans-serif;
+ font-weight: bold;
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+h2{
+ padding: 5px;
+ text-align: center;
+ font-family: 'Cabin', sans-serif;
+ font-weight: bold;
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+h1{
+  font-size: 30px;
+  padding: 15px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 35px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+#dog {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 25%;
+  height: 25%; 
+  display: block;
+  float: none;
+  padding: 5px;
+}
+form, #f2, #f3, #f4, #f5, #f6 {
+  padding: 5px;
+  text-align: right;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+h4,a {
+  font-family: 'Cabin', sans-serif;
+  text-align: left;
+  padding: 15px;
+}
+h4 {
+  color: white;
+}
+#button {
+	font-family: 'Cabin', sans-serif;
+	color: red; 
+}
+#p1, #p2, #p3 {
+	font-family: 'Cabin', sans-serif;
+	font-size: 12px;
+	color: white;
+	padding: 10px;
+}
+}
